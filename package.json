@@ -1,0 +1,53 @@
+{
+  "name": "joi-form-i18n",
+  "version": "1.0.0",
+  "description": "Turn Joi validation errors into ready-to-show form messages in English, Spanish, French, German, Portuguese, Arabic, Hindi and Urdu.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "locales.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "joi": ">=17"
+  },
+  "devDependencies": {
+    "joi": "^17.13.3"
+  },
+  "keywords": [
+    "joi",
+    "i18n",
+    "validation",
+    "form",
+    "translation",
+    "multilingual",
+    "localization",
+    "error messages"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saimulhasnain-dev/joi-form-i18n.git"
+  },
+  "homepage": "https://github.com/saimulhasnain-dev/joi-form-i18n#readme",
+  "bugs": {
+    "url": "https://github.com/saimulhasnain-dev/joi-form-i18n/issues"
+  },
+  "author": "saimulhasnain-dev"
+}

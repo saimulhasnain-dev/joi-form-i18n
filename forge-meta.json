@@ -1,0 +1,9 @@
+{
+  "name": "joi-form-i18n",
+  "what": "Turns Joi validation errors into one ready-to-show message per form field, in English, Spanish, French, German, Portuguese, Arabic, Hindi or Urdu, with translatable field names and RTL detection.",
+  "useful": "Teams with international users get translated form errors without writing their own message tables, and without replacing Joi.",
+  "gap": "Joi ships English-only messages; existing glue packages target other libraries or frameworks, so there is no small Joi-focused helper that returns per-field translated form errors.",
+  "searchTerms": "joi i18n validation messages",
+  "checklist": ["Returns one translated message per field for each built-in language", "Nested fields use dotted paths", "Regional codes fall back to the base language", "Custom languages can be added", "All locales define the same keys and keep placeholders (tested)"],
+  "evidence": []
+}
